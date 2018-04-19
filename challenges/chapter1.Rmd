@@ -100,14 +100,14 @@ Insul: a categorical variable with two values, indicating whether the measuremen
 `@hint`
 The plot() call only takes one argument: whiteside
 
-`@pre_exercise_code`
+
+`@sample_code`
 ```{}
 # Load MASS package
 
 
 # Plot whiteside data
 ```
-
 `@solution`
 ```{}
 # Load MASS package
