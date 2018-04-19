@@ -1,93 +1,124 @@
 ---
-title: "example_r_challenges"
-output: html_document
+title: example_r_challenges
+description: >-
+  undefined
 
---- type:MultipleChoiceChallenge key:167A4VcDii9Ku
+
+---
 ## True basics
 
-*** =assignment1
-Which symbol marks the beginning of a comment in R?
+```yaml
+type: MultipleChoiceChallenge
 
-*** =options1
-- `%`
-- `%*`
-- [`#`]
-- `@`
-- `$`
-- `*`
-- `/*`
+xp: undefined
+
+key: 167A4VcDii9Ku
+```
 
 
-*** =assignment2
-Which of the following is the recommended method of assigning a value to a variable?
-
-*** =options2
-- [`z <- 3`]
-- `z is 3`
-- `z gets 3`
-- `z -> 3`
-- `z == 3`
 
 
-*** =assignment3
-Which function is used to view the contents of your workspace?
-
-*** =options3
-- `show()`
-- [`ls()`]
-- `view()`
-- `View()`
-- `view_contents()`
-- `show_workspace()`
-- `view_workspace()`
 
 
---- type:OutputChallenge key:167oSz8A19yBt
+
+
+
+
+
+
+
+
+---
 ## Identify the class of an object
 
-*** =code
-```{r}
-x <- {{var1}}
-class(x)
+```yaml
+type: OutputChallenge
+
+xp: undefined
+
+key: 167oSz8A19yBt
 ```
 
-*** =variables
-var1:
-  - '-1.3'
-  - 'c(5, 1)'
-  - '"FALSE"'
-  - '"TRUE"'
-  - 'c(TRUE, FALSE)'
-  - 'c("b", "a")'
-  - 'c(FALSE, TRUE)'
-  - 'TRUE'
-  - 'FALSE'
-  - 'c("-2", "3")'
-  - 'c(12, -10)'
 
---- type:BlanksChallenge key:167y3A7MS2X70
+
+
+
+
+
+
+
+
+
+
+
+
+---
 ## Create a vector
 
-*** =code
-```{r}
-{{var1}} <- {{_fun1}}({{var2}})
-{{var1}}
+```yaml
+type: BlanksChallenge
+
+xp: undefined
+
+key: 167y3A7MS2X70
 ```
 
-*** =variables
-var1:
-  - 'x'
-  - 'y'
-  - 'z'
-var2:
-  - '11, 8, 10, 15'
-  - '12, 17, 5, 19'
-  - '-8, -4, 2'
-  - '-9, -10, -2'
-  - 'FALSE, TRUE, TRUE'
-  - 'TRUE, FALSE, TRUE'
-  - '"January", "June", "December"'
-  - '"May", "June", "March"'
-  - '"December", "September", "February"'
-fun1:
-  - 'c'
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+
+xp: 
+
+key: 4383aff36e
+```
+
+Test
+
+`@instructions`
+Creating an exploratory plot array
+In this exercise, you'll construct a simple exploratory plot from a data frame that gives values for three variables, recorded over two winter heating seasons. The variables are:
+
+Temp: a measure of the outside temperature during one week
+Gas: the amount of heating gas consumed during that week
+Insul: a categorical variable with two values, indicating whether the measurements were made before or after an insulation upgrade was made to the house
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{}
+# Load MASS package
+
+
+# Plot whiteside data
+
+```
+
+`@solution`
+```{}
+# Load MASS package
+library(MASS)
+
+# Plot whiteside data
+plot(whiteside)
+```
+
+
+
+
+
