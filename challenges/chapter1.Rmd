@@ -10,7 +10,7 @@ description: >-
 ```yaml
 type: MultipleChoiceChallenge
 
-xp: undefined
+xp: NaN
 
 key: 167A4VcDii9Ku
 ```
@@ -34,7 +34,7 @@ key: 167A4VcDii9Ku
 ```yaml
 type: OutputChallenge
 
-xp: undefined
+xp: NaN
 
 key: 167oSz8A19yBt
 ```
@@ -58,7 +58,7 @@ key: 167oSz8A19yBt
 ```yaml
 type: BlanksChallenge
 
-xp: undefined
+xp: NaN
 
 key: 167y3A7MS2X70
 ```
@@ -82,7 +82,7 @@ key: 167y3A7MS2X70
 ```yaml
 type: NormalExercise
 
-xp: 
+xp: NaN
 
 key: 4383aff36e
 ```
@@ -98,7 +98,7 @@ Gas: the amount of heating gas consumed during that week
 Insul: a categorical variable with two values, indicating whether the measurements were made before or after an insulation upgrade was made to the house
 
 `@hint`
-
+The plot() call only takes one argument: whiteside
 
 `@pre_exercise_code`
 ```{}
@@ -106,7 +106,6 @@ Insul: a categorical variable with two values, indicating whether the measuremen
 
 
 # Plot whiteside data
-
 ```
 
 `@solution`
